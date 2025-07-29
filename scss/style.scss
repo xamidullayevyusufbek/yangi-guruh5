@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+.navbar-content {
+    background-image: url(/pages/fon.png);
+    max-width: 1500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white 100%;
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 30px;
+        position: fixed;
+        z-index: 1;
+
+        .navbar-logo {
+            padding-left: 30px;
+        }
+
+        .navbar-menus {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 60px;
+        }
+
+        .navbar-menus li a {
+            color: white;
+        }
+    }
+
+    .navbar-btn {
+        background-color: #5468E780;
+        border: none;
+        width: 150px;
+        height: 45px;
+        color: white;
+    }
+
+    .menu-btn img {
+        display: none;
+    }
+
+    .navbar-infos {
+        color: white;
+        padding-top: 300px;
+        padding-left: 80px;
+
+        .infos__page {
+            font-size: 60px;
+        }
+
+        .infos__description {
+            font-size: 20px;
+            padding-top: 15px;
+        }
+    }
+
+    @media (max-width:943px) {
+        .navbar .navbar-menus {
+            display: none;
+        }
+
+        .navbar .menu-btn img {
+            display: inline-block;
+        }
+
+    }
+}
+
+
+.navbar-btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 80px;
+    padding-top: 60px;
+
+    .search-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search-box input {
+        width: 300px;
+        height: 40px;
+        font-size: 16px;
+        border: 1px solid #5468E7;
+        border-radius: 5px;
+        padding-left: 15px;
+    }
+
+    .navbar-butn {
+        background-color: #5468E7;
+        color: white;
+        width: 200px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+    }
+}
+
+#hero {
+        .hero-content {
+            max-width: 1500px;
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+
+            display: flex;
+            gap: 20px;
+
+            .hero-infos {
+                color: #232340;
+                margin-top: 150px;
+                margin-left: 60px;
+
+                .hero-page {
+                    font-size: 50px;
+                    line-height: 64px;
+                }
+
+                .hero-description {
+                    padding-top: 20px;
+                    font-size: 20px;
+                    line-height: 27px;
+                }
+            }
+
+            .hero-image {
+                margin-top: 50px;
+            }
+        }
+    }
