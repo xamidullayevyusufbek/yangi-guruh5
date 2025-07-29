@@ -14,7 +14,6 @@ ul {
 }
 
 
-
 .navbar-content {
     background-image: url(/pages/fon.png);
     max-width: 1500px;
@@ -126,34 +125,174 @@ ul {
 }
 
 #hero {
-        .hero-content {
-            max-width: 1500px;
-            width: 100%;
-            margin-left: 0;
-            margin-right: 0;
+    .hero-content {
+        max-width: 1500px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
 
-            display: flex;
-            gap: 20px;
+        display: flex;
+        gap: 20px;
 
-            .hero-infos {
-                color: #232340;
-                margin-top: 150px;
-                margin-left: 60px;
+        .hero-infos {
+            color: #232340;
+            margin-top: 150px;
+            margin-left: 60px;
 
-                .hero-page {
+            .hero-page {
+                font-size: 50px;
+                line-height: 64px;
+            }
+
+            .hero-description {
+                padding-top: 20px;
+                font-size: 20px;
+                line-height: 27px;
+            }
+        }
+
+        .hero-image {
+            margin-top: 50px;
+        }
+    }
+}
+
+#hero2 {
+    .container {
+        max-width: 1500px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+        .hero2-content {
+             display: flex;
+             gap: 50px;
+             margin-top: 70px;
+            .hero2-image {
+                margin-left: 70px;
+            }
+
+            .hero2-infos {
+                 color: #232340;
+                 margin-left: 50px;
+                 margin-top: 100px;
+                .hero2-page {
                     font-size: 50px;
                     line-height: 64px;
                 }
-
-                .hero-description {
-                    padding-top: 20px;
+                .hero2-description{
+                    margin-top: 20px;
                     font-size: 20px;
                     line-height: 27px;
                 }
             }
+        }
+    }
+}
 
-            .hero-image {
-                margin-top: 50px;
+#hero3{
+    .container{
+        max-width: 1500px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+        .hero3-content{
+            display: flex;
+            margin-top: 100px;
+            gap: 60px;
+            .hero3-infos{
+                 color: #232340;
+                 margin-left: 70px;
+                 margin-top: 100px;
+                 .hero3-page{
+                    font-size: 50px;
+                    line-height: 64px;
+                 }
+                 .hero3-description{
+                    font-size: 20px;
+                    line-height: 27px;
+                    margin-top: 20px;
+                 }
+            }
+            .hero3-image{
+                 margin-left: 90px;
             }
         }
     }
+}
+
+#hero4{
+    .container{
+        max-width: 1500px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+        .hero4-content{
+            display: flex;
+            gap: 100px;
+            margin-top: 100px;
+            .hero4-image{
+            margin-left: 70px;
+            }
+            .hero4-infos{
+                color: #232340;
+                margin-top: 100px;
+                .hero4-page{
+                    font-size: 50px;
+                    line-height: 64px;
+                }
+                .hero4-description{
+                    margin-top: 20px;
+                    font-size: 20px;
+                    line-height: 27px;
+                }
+            }
+        }
+    }
+}
+
+#hero5{
+    .container{
+        max-width: 1500px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+        .hero5-content{
+            margin-top: 100px;
+            .hero5-page{
+                color: #232340;
+                font-size: 50px;
+                line-height: 64px;
+                text-align: center;
+                margin-bottom: 50px;
+            }
+        }
+        .hero5-cards{
+
+            .hero5-card{
+                border: none;
+                background-color: rgb(233, 231, 231);
+                width: 300px;
+                height: 300px;
+
+                .hero5-png{
+                    padding-top: 20px;
+                   padding-left: 25px;
+                }
+                .hero5-description{
+                    padding-left: 35px;
+                    padding-top: 10px;
+                    color: #232340;
+                    font-size: 18px;
+                }
+                .hero5-logo__menu{
+                    display: flex;
+                    gap: 30px;
+                }
+            }
+        }
+    }
+}
